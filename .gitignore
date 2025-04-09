@@ -1,0 +1,34 @@
+# .gitignore for Android Studio projects
+
+# Ignore build/ directory
+/build/
+
+# Ignore local configuration files
+.idea/
+.gradle/
+local.properties
+
+# Ignore Android Studio-specific files
+*.iml
+*.hprof
+
+# Ignore OS files (Mac, Linux, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Android specific files
+/captures/
+
+# Ignore other generated files
+*.log
+*.aux
+*.out
+*.bak
+*.swp
+
+# Ignore APK and other build outputs
+*.apk
+*.ap_ 
+
+# Ignore generated Android SDK folder
+.gradle/
