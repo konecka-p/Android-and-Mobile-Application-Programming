@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_generator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startGenerator"
+        android:text="Maze Generator" />
+
+    <Button
+        android:id="@+id/btn_open_parameters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parameters"
+        android:onClick="setParameters"
+        android:layout_marginTop="8dp" />
+    <Button
+        android:id="@+id/btn_start_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:onClick="startGame"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
